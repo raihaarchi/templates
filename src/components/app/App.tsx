@@ -1,5 +1,5 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import "./App.css";
 
 const App = () => {
   return (
@@ -17,8 +17,11 @@ const App = () => {
           Learn React
         </a>
       </header>
+      {[1, 2, 3].map((el) => (
+        <p>{el}</p>
+      ))}
     </div>
   );
-}
+};
 
 export default App;

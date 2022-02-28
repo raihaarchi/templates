@@ -27,6 +27,7 @@
     ],
     "no-duplicate-imports": ["error", { "includeExports": true }],
     "react/react-in-jsx-scope": "off",
+    "react/jsx-key": "off",
     "no-console": 2
   },
   "settings": {
